@@ -1,13 +1,11 @@
 #Wk_1_4.rb
-name = {}
+
 puts "Enter First Name"
-name[:first]} = "fname1"
-
+fname = gets.chomp
 puts "Enter Last Name"
-name[:last] = "lname1"
+lname = gets.chomp
+puts fname+" "+lname
 
-p name[first]  name[last]
+name1 = {"first"=> fname, "last" => lname} 
 
-
-
-
+  puts "Hello #{name1["first"]}"
